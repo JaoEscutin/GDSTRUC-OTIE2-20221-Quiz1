@@ -21,14 +21,14 @@ public class Main {
 
         bubbleSort(numbers);
 
-        //Array After Bubble Sort...
-        System.out.println("\n\nAfter Bubble Sort: ");
+        //Array After Bubble Sort in descending order...
+        System.out.println("\n\nAfter Bubble Sort in descending order: ");
         printArrayElements(numbers);
 
         selectionSort(numbers);
 
-        //Array After Selection Sort
-        System.out.println("\n\nAfter Selection Sort: ");
+        //Array After Selection Sort in descending order...
+        System.out.println("\n\nAfter Selection Sort in descending order: ");
         printArrayElements(numbers);
 
     }
